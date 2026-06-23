@@ -1,15 +1,15 @@
 # mcp-hey
 
-[![Sealjay/mcp-hey MCP server](https://glama.ai/mcp/servers/Sealjay/mcp-hey/badges/score.svg)](https://glama.ai/mcp/servers/Sealjay/mcp-hey)
 [![Bun](https://img.shields.io/badge/Bun-1.1+-000000?logo=bun&logoColor=ffffff)](https://bun.sh)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=ffffff)](https://www.python.org/)
 [![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-6E44FF)](https://modelcontextprotocol.io/)
-[![License: MIT](https://img.shields.io/github/license/Sealjay/mcp-hey)](LICENCE)
-[![GitHub issues](https://img.shields.io/github/issues/Sealjay/mcp-hey)](https://github.com/Sealjay/mcp-hey/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Sealjay/mcp-hey?style=social)](https://github.com/Sealjay/mcp-hey)
+[![License: MIT](https://img.shields.io/github/license/redemptiveNYC/mcp-hey)](LICENCE)
+[![GitHub issues](https://img.shields.io/github/issues/redemptiveNYC/mcp-hey)](https://github.com/redemptiveNYC/mcp-hey/issues)
 
 > A local Model Context Protocol (MCP) server that gives Claude read/write access to your [Hey.com](https://hey.com) inbox via reverse-engineered web APIs.
+
+> **Redemptive fork** of [sealjay/mcp-hey](https://github.com/Sealjay/mcp-hey), maintained at [redemptiveNYC/mcp-hey](https://github.com/redemptiveNYC/mcp-hey). Original work © Chris Lloyd-Jones, MIT-licensed; see [`LICENCE`](LICENCE).
 
 mcp-hey has two moving parts: a Bun/TypeScript MCP server that exposes Hey tools over stdio, and a small Python helper that uses the system webview to capture session cookies at login. Everything runs locally — no cloud relay, no credentials stored, just session cookies on disk.
 

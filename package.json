@@ -1,5 +1,5 @@
 {
-  "name": "mcp-hey",
+  "name": "@redemptivenyc/mcp-hey",
   "version": "0.4.1",
   "private": false,
   "license": "MIT",
@@ -7,7 +7,21 @@
     "name": "Chris Lloyd-Jones",
     "url": "https://sealjay.com"
   },
-  "description": "A local MCP server providing Claude with read/write access to Hey.com email accounts via reverse-engineered web APIs.",
+  "contributors": [
+    {
+      "name": "Redemptive",
+      "url": "https://redemptive.nyc"
+    }
+  ],
+  "description": "A local MCP server providing Claude with read/write access to Hey.com email accounts via reverse-engineered web APIs. Redemptive fork of sealjay/mcp-hey.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redemptiveNYC/mcp-hey.git"
+  },
+  "homepage": "https://github.com/redemptiveNYC/mcp-hey#readme",
+  "bugs": {
+    "url": "https://github.com/redemptiveNYC/mcp-hey/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "bun run src/index.ts",
